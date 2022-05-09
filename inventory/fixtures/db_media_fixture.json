@@ -1,0 +1,26 @@
+[
+{
+    "model": "inventory.media",
+    "pk": 1,
+    "fields": {
+        "product_inventory": 1,
+        "image": "images/Watch.jpeg",
+        "alt_text": "Watch django program",
+        "is_feature": true,
+        "created_at": "2022-05-05T15:20:50.142Z",
+        "updated_at": "2022-05-05T15:20:50.142Z"
+    }
+},
+{
+    "model": "inventory.media",
+    "pk": 2,
+    "fields": {
+        "product_inventory": 2,
+        "image": "images/T-Shirt.jpeg",
+        "alt_text": "T-shirt django admin model",
+        "is_feature": true,
+        "created_at": "2022-05-05T15:22:26.465Z",
+        "updated_at": "2022-05-05T15:22:26.465Z"
+    }
+}
+]

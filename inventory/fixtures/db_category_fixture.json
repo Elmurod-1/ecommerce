@@ -1,0 +1,22 @@
+[
+{
+    "model": "inventory.category",
+    "pk": 1,
+    "fields": {
+        "name": "django",
+        "slug": "django",
+        "is_active": true,
+        "parent": null
+    }
+},
+{
+    "model": "inventory.category",
+    "pk": 2,
+    "fields": {
+        "name": "django admin",
+        "slug": "django-admin",
+        "is_active": true,
+        "parent": 1
+    }
+}
+]

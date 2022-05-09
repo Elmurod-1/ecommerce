@@ -1,0 +1,38 @@
+[
+{
+    "model": "inventory.productinventory",
+    "pk": 1,
+    "fields": {
+        "sku": "lesson1",
+        "upc": "123456789",
+        "product_type": 1,
+        "product": 1,
+        "brand": 1,
+        "is_active": true,
+        "retail_price": "98.99",
+        "store_price": "100.00",
+        "sale_price": "25.00",
+        "weight": 10.0,
+        "created_at": "2022-05-05T12:47:49.131Z",
+        "updated_at": "2022-05-05T12:47:49.131Z"
+    }
+},
+{
+    "model": "inventory.productinventory",
+    "pk": 2,
+    "fields": {
+        "sku": "lesson2",
+        "upc": "123654789",
+        "product_type": 2,
+        "product": 2,
+        "brand": 1,
+        "is_active": true,
+        "retail_price": "56.00",
+        "store_price": "60.00",
+        "sale_price": "19.00",
+        "weight": 7.0,
+        "created_at": "2022-05-05T12:49:03.993Z",
+        "updated_at": "2022-05-05T12:49:03.993Z"
+    }
+}
+]

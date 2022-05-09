@@ -1,0 +1,14 @@
+[
+{
+"model": "auth.user",
+"pk": 1,
+  "fields": {
+    "username": "elmurod",
+    "password": "pbkdf2_sha256$320000$Hk0cmUlR8nGqX18eZBXTua$aOAaxNzDGwFReIQG7OXiKt45pEaU1TL6eYmRpj9bzCo=",
+    "email": "salom@gmail.com",
+    "is_superuser": true,
+    "is_staff": true,
+    "is_active": true
+  }
+}
+]

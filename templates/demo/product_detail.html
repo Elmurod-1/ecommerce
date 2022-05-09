@@ -1,0 +1,14 @@
+{% extends 'demo/base.html' %}
+{% load static %}a
+
+{% block content %}
+    <a href="{% url 'demo:category' %}">Categories</a>
+    {% for x in data %}
+        <ul>
+            <li>{{ x.id }}</li>
+            <li>{{ x.product__name }}</li>
+            <li>{{ x.sku }}</li>
+            <li>{{ x.stock_product__units }}</li>
+        </ul>
+    {% endfor %}
+{% endblock content %}
