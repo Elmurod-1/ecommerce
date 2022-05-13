@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad25ba91-95ec-47bd-9ecd-1e4f2bf5687b" name="Changes" comment="committ" />
+    <list default="true" id="ad25ba91-95ec-47bd-9ecd-1e4f2bf5687b" name="Changes" comment="committ">
+      <change afterPath="$PROJECT_DIR$/dninja/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dninja/tests/test_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drf/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drf/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/tests/c_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/tests/promotion_fixture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/_db_product_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/_db_stock_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_category_product_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_product_attribute_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_product_attribute_value_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_product_attribute_values_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_product_type_attribute_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_stock_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/fixtures/db_type_fixture.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/documents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/test/test_selenium_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/test/test_selenium_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/management/commands/load-fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/management/commands/load-fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/tests/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/tests/factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/tests/fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/tests/fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/fixtures/db_brand_fixture.json" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/fixtures/db_brand_fixture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/fixtures/db_category_fixture.json" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/fixtures/db_category_fixture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/fixtures/db_media_fixture.json" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/fixtures/db_media_fixture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/fixtures/db_product_fixture.json" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/fixtures/db_product_fixture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/fixtures/db_product_inventory_fixture.json" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/fixtures/db_product_inventory_fixture.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/fixtures/db_product_type_fixture.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/migrations/0002_alter_category_slug_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/migrations/0003_brand_producttype_productinventory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/migrations/0004_media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/migrations/0005_productattribut_productattributvalue_stock_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/migrations/0006_productinventory_is_default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory/tests/test_db_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/inventory/tests/test_db_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/demo/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/demo/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/demo/product_by_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/demo/product_by_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/demo/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/demo/product_detail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,7 +100,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/elmurod/django_programs/github/ecommerce&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/elmurod/django_programs/github/django-ecommerce-project-v2/part-5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,6 +111,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inventory/fixtures" />
+      <recent name="$PROJECT_DIR$/ecommerce" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -69,7 +121,7 @@
       <recent name="$PROJECT_DIR$/ecommerce" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.ecommerce">
+  <component name="RunManager" selected="Python tests.pytest for test_db_fixtures.test_inventory_db_media_dataset">
     <configuration name="load-fixtures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ecommerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +197,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_db_fixtures.test_inventory_db_media_dataset" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inventory/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_db_fixtures.test_inventory_db_media_dataset&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_db_fixtures.test_inventory_db_media_dataset" />
         <item itemvalue="Python tests.Python tests for test_db_fixtures.test_inventory_product_dbfixture" />
         <item itemvalue="Python.load-fixtures" />
         <item itemvalue="Python tests.Python tests for test_selenium_dashboard.test_example" />
@@ -171,6 +241,13 @@
       <workItem from="1652017770187" duration="4618000" />
       <workItem from="1652032810884" duration="6586000" />
       <workItem from="1652087407068" duration="914000" />
+      <workItem from="1652160094758" duration="8698000" />
+      <workItem from="1652182249526" duration="9021000" />
+      <workItem from="1652193804413" duration="21528000" />
+      <workItem from="1652245811337" duration="12965000" />
+      <workItem from="1652269663697" duration="8903000" />
+      <workItem from="1652332868754" duration="16640000" />
+      <workItem from="1652410231553" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="committ">
       <created>1652087629800</created>
@@ -203,6 +280,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ecommerce$.coverage" NAME=" Coverage Results" MODIFIED="1651755887324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory/tests" />
+    <SUITE FILE_PATH="coverage/ecommerce$pytest_for_test_db_fixtures_test_inventory_db_media_dataset.coverage" NAME="pytest for test_db_fixtures.test_inventory_db_media_dataset Coverage Results" MODIFIED="1652165666281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory/tests" />
     <SUITE FILE_PATH="coverage/ecommerce$load_fixtures.coverage" NAME="load-fixtures Coverage Results" MODIFIED="1651727925575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

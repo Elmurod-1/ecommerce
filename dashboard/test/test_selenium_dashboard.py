@@ -2,11 +2,6 @@ import pytest
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-# @pytest.mark.selenium
-# def test_create_new_admin_user(create_admin_user):
-#     assert create_admin_user.__str__() == "elmurod4"
-
-
 @pytest.mark.selenium
 def test_admin_login(live_server, django_db_setup, chrome_browser):
     browser = chrome_browser
@@ -20,4 +15,4 @@ def test_admin_login(live_server, django_db_setup, chrome_browser):
     user_password.send_keys('password')
     submit.send_keys(Keys.RETURN)
 
-    assert  "Site administration" in browser.page_source
+    assert "Site administration" in browser.page_source

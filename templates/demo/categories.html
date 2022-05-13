@@ -5,7 +5,7 @@
     <a href="{% url 'demo:home' %}">Home</a>
     {% for x in data %}
         <ul>
-            <li><a href="{% url 'demo:product_by_category' category=x.slug %}">{{ x }}</a></li>
+            <li><a href="{% url 'demo:product_by_category' category=x.slug %}">{{ x.name }}</a></li>
         </ul>
     {% endfor %}
 {% endblock content %}

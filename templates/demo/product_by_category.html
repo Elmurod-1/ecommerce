@@ -6,8 +6,8 @@
     {% for x in data %}
         <ul>
             <li>{{ x.name }} [<a href="{% url 'demo:product_detail' slug=x.slug %}">Views</a>]</li>
-            <li>{{ x.product__store_price }}</li>
-            <li>{{ x.product__brand__name }}</li>
+            <li>{{ x.id }}</li>
+            <li>Price: £{{ x.product__store_price }}</li>
         </ul>
     {% endfor %}
 {% endblock content %}

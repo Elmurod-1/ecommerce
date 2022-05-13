@@ -1,4 +1,15 @@
 from django.contrib import admin
-from .models import Category, Product, Brand, ProductType, ProductInventory, Media
+from . import models
 
-admin.site.register([Category, Product, Brand, ProductType, ProductInventory, Media])
+admin.site.register([
+    models.Category,
+    models.Product,
+    models.Brand,
+    models.ProductType,
+    models.ProductInventory,
+    models.Media,
+    models.ProductAttribute,
+    models.ProductAttributeValue,
+    models.ProductAttributeValues,
+    models.Stock
+])

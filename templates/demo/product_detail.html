@@ -2,13 +2,84 @@
 {% load static %}a
 
 {% block content %}
+    <a href="{% url 'demo:product_by_category' category=data.product__category__name %}">Products</a>
     <a href="{% url 'demo:category' %}">Categories</a>
-    {% for x in data %}
-        <ul>
-            <li>{{ x.id }}</li>
-            <li>{{ x.product__name }}</li>
-            <li>{{ x.sku }}</li>
-            <li>{{ x.stock_product__units }}</li>
+    <ul>
+        <li class="text-capitalize">
+        {{data.product__name}}
+        </li>
+        <ul class="list-unstyled">
+            <li>SKU: {{data.sku}}
+            <li>Price: £{{data.store_price}}</li>
+            <li>{{data.attribute_values__attribute_value}}</li>
+            <li>Stock: {{data.product_inventory__units}}</li>
         </ul>
-    {% endfor %}
+    </ul>
+    <ul>
+      {% for b in z %}
+        <li class="text-capitalize">
+        {{b.product_attribute__name}}
+        <ul>
+          {% for a in y %}
+            {% if a.attribute_values__product_attribute__name == b.product_attribute__name  %}
+            <li class="text-capitalize">
+                {% if a.attribute_values__attribute_value in data.field_a %}
+                <div id="target-{{a.attribute_values__attribute_value}}" class="selected fw-bold" data-attribute="{{b.product_attribute__name}}" value="{{a.attribute_values__attribute_value}}">{{a.attribute_values__attribute_value}}</div>
+                {% else %}
+                <div id="target-{{a.attribute_values__attribute_value}}" class="" data-attribute="{{b.product_attribute__name}}" value="{{a.attribute_values__attribute_value}}">{{a.attribute_values__attribute_value}}</div>
+                {% endif %}
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <script>
+
+      var d = {}
+
+      let textBoxes = document.querySelectorAll('[id^=target]');
+
+      let e = 0
+      let f = textBoxes.length
+
+      for (let i in textBoxes) {
+        if (e < f) {
+          if (textBoxes[i].classList.contains("selected")) {
+              d[textBoxes[i].getAttribute('data-attribute')] = textBoxes[i].getAttribute('value')
+          }
+        } else {
+          break
+        }
+        e++
+      }
+
+      document.addEventListener('click', function(e) {
+      let value = e.target.getAttribute('value');
+      d[e.target.getAttribute('data-attribute')] = e.target.getAttribute('value')
+      let querystring = buildUrlWithParams(d)
+      let url = window.location.href.split('?')[0]
+      window.location.href = url + "?" + querystring;
+      }, false);
+
+      {% comment %} $('[id^=target]').click(function () {
+        const value = this.getAttribute('value');
+        d[this.getAttribute('data-attribute')] = this.getAttribute('value')
+        const querystring = buildUrlWithParams(d)
+        const url = window.location.href.split('?')[0]
+        window.location.href = url + "?" + querystring;
+      }); {% endcomment %}
+
+      function buildUrlWithParams(data) {
+        var searchparams = [];
+        for (var d in data)
+          searchparams.push(d + '=' + data[d]);
+        return searchparams.join('&');
+      }
+
+    </script>
+
+
 {% endblock content %}
